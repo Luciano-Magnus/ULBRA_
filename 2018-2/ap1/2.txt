@@ -1,0 +1,28 @@
+Faça um algoritmo para reajustar o salário de acordo com a função. Se for técnico, aumentar o salário 50%, se for gerente, aumentar 30% e se for outro cargo, aumentar 20%.
+Algoritmo "exr2"
+
+Var
+   sal, slt: real
+   op: inteiro
+
+Inicio
+          escreva ( "escolha o cargo: 1 gerente, 2 técnico, 3 outro cargo: ")
+         leia(op)
+         escreva ("digite o salario: ")
+         leia (sal)
+          escolha(op)
+          caso 1
+          slt <- sal + (sal*0.3)
+          
+          caso 2
+          slt<- sal * (sal*0.5)
+          
+          caso 3
+          slt<- sal * (sal*0.2)
+
+         fimescolha
+
+          escreva ( "Novo salario sera= ", slt)
+
+
+          Fimalgoritmo

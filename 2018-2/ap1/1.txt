@@ -1,0 +1,13 @@
+Faça um algoritmo para ler um número e informar se ele está na faixa de números entre 100(inclusive) e 1000(inclusive).
+algoritmo "1"
+var
+   n:real
+inicio
+   escreval (" digite um numero:")
+   leia(n)
+   se n => 100 e <= 1000 entao
+      escreva (" esse numero esta na faixa de 100 a 1000")
+   senao
+      escreva (" esse numero esta fora da faixa de 100 a 1000")
+   fimse
+fimalgoritmo

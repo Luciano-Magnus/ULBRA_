@@ -1,0 +1,20 @@
+Construa um algoritmo que leia dois números e efetue a adição. Caso o valor somado seja maior que 20, este deverá ser apresentado somando e a ele mais 8; caso o valor somado seja menor ou igual a 20, este deverá ser apresentado subtraindo-se 5
+	Algoritmo "excr5"
+
+Var
+    n1, n2, r:real
+
+Inicio
+   escreva("digite o primeiro numero___ ")
+   leia(n1)
+   escreva ("digite o segundo numero____ ")
+   leia(n2)
+    se (n1 + n2>20) entao
+       r<-n1 + n2 + 8
+    senao
+    r<- n1 + n2 - 5
+    fimse
+    escreva ( "resultado é ", r)
+
+
+  Fimalgoritmo

@@ -1,0 +1,20 @@
+Faça um algoritmo para ler três números e verificar se a soma deles é maior que 50. Se for, escrever uma mensagem informando.
+Algoritmo "exr2"
+
+Var
+   n1, n2, n3: real
+Inicio
+
+          escreva ("escreva um numero___ ")
+          leia(n1)
+          escreva("escreva o segundo numero___ ")
+          leia (n2)
+          escreva ("escreva o terceiro numero___ ")
+          leia(n3)
+          
+          se (n1 + n2 + n3>50) entao
+          escreva (" A soma é maior que 50!")
+
+         fimse
+
+  Fimalgoritmo

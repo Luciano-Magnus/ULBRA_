@@ -1,0 +1,16 @@
+Faça um algoritmo para ler um número e se ele for maior do que 30, então exibir metade do número, caso contrário, imprimir o dobro do número. 
+-algoritmo "2"
+
+var
+
+ n, t: real
+inicio
+   escreval (" digite um numero")
+   leia (n)
+   se n > 30 entao
+t <- n/2
+   senao
+t <- n*2
+   fimse
+   escreval (t)
+fimalgoritmo
